@@ -16,7 +16,7 @@
 }
 @media (max-width: 991px) {
     .advantages {
-        &__header {
+        .title_media {
             font-size: 25px;
         }
         &__wrapper {
@@ -137,7 +137,7 @@
 	}
 	.advantages {
 		padding: 45px 0 60px 0;
-		&__header {
+		.title_media {
 			font-size: 20px;
 		}
 		&__wrapper {
