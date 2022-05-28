@@ -3,7 +3,20 @@ const slider = tns({
     items: 1,
     slideBy: 'page',
     controls: false,
-    nav: false
+    nav: false,
+    responsive: {
+        575: {
+          edgePadding: 1,
+          gutter: 0,
+          items: 1
+        },
+        767: {
+          gutter: 0
+        },
+        991: {
+          items: 1
+        }
+      }
   });
 
 document.querySelector('.prev').addEventListener('click', function () {
