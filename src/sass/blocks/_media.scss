@@ -236,6 +236,33 @@
 			font-size: 12px;
 		}
 	}
+	.footer {
+		height: 550px;
+		&__info {
+			width: 420px;
+			height: 250px;
+		}
+		&__adr {
+			font-size: 17px;
+			line-height: 17px;
+		}
+		&__phone {
+			font-size: 17px;
+			line-height: 17px;
+		}
+		&__item {
+			width: 45px;
+			height: 45px;
+			img {
+				height: 24px;
+			}
+			&:hover {
+				img {
+					height: 27px;
+				}
+			}
+		}
+	}
 }
 @media (max-width: 575px) {
 	.header {
@@ -409,5 +436,67 @@
 			text-align: center;
 		}
 	}
+	.footer {
+		height: 350px;
+		&__info {
+			width: 200px;
+			height: 150px;
+			padding: 30px 6px 30px 6px;
+		}
+		&__social {
+			margin-top: 25px;
+		}
+		&__adr {
+			font-size: 11px;
+			line-height: 11px;
+		}
+		&__phone {
+			font-size: 11px;
+			line-height: 11px;
+			margin-top: 20px;
+		}
+		&__item {
+			width: 35px;
+			height: 35px;
+			img {
+				height: 18px;
+			}
+			&:hover {
+				img {
+					height: 18px;
+				}
+			}
+		}
+	}
+	.modal {
+		padding: 18px 15px 18px 15px;
+		width: 220px;
+		min-height: 270px;
+		&__subtitle {
+			font-size: 11px;
+		}
+		&__descr {
+			font-size: 9px;
+			line-height: 9px;
+			margin-top: 7px;
+		}
+		&__close {
+			font-size: 30px;
+			line-height: 15px;
+			right: -30px;
+		}
+		.button_submit {
+			font-size: 9px;
+			height: 35px;
+		}
+		.feed-form {
+			width: 100%;
+			input {
+				height: 30px;
+				font-size: 10px;
+			}
+		}
+	}
+
 }
 
